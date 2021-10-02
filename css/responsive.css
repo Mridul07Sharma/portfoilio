@@ -1,0 +1,40 @@
+@media screen  and (max-width:1000px) {
+nav ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    header{
+        height: 23vh;
+        /* font-size: 16px; */
+    }
+    .photo{
+        display:flex;
+        justify-content: center;
+    }
+    .data{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 4vw;
+    }
+    .list{
+        flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+  max-width: 400px;
+  height: auto;
+    }
+    .box2{
+        padding-left: 4vw;
+    }
+    .box3{
+        padding-left: 4vw;
+    }
+    .profile{
+        padding-left: 4vw;
+
+    }
+    .box1{
+        padding-left: 4vw;
+    }
+}
