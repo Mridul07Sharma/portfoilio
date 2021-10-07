@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    color: white;
+    position: sticky;
+}
+@keyframes  dance{
+    
+    0%{
+        color: rgb(243, 243, 243);
+    }
+    20%{
+        color: rgb(236, 92, 121);
+    }
+    40%{
+        color: rgb(150, 240, 147);
+    }
+    60%{
+        color: rgb(140, 157, 231);
+    }
+    80%{
+        color: rgb(238, 108, 216);
+    }
+    100%{
+        color: rgb(240, 226, 29);
+    }
+}
+nav .info{
+    display:inline-flex;
+    float: left;
+    padding:1.95vh 3vw;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Source Serif Pro', serif; */
+    font-family: 'Lobster', cursive;
+    font-size: 2vw;
+    color: white;
+    animation-name: dance;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    float: right;
+    font-size: 1.35vw;
+}
+nav ul li{
+
+    list-style: none;
+    padding: 3vh 3vw;
+    cursor:pointer;
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+nav ul li a:hover{
+    color: goldenrod;
+    font-weight: bold;
+}
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+    background-color: rgba(0, 0, 0, 0.877);
+}
+@keyframes colorChange {
+    0%{
+        color: white;
+    }
+    100%{
+        
+        color: rgb(255, 207, 85);
+    }
+}
+.jet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container .content{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     font-family: 'Source Serif Pro', serif;
+     height: 40vh;
+     padding: 3vw;
+     
+
+}
+
+.text1{
+    font-size: 2vw;
+    text-align: left;
+    width: 45vw;
+}
+.text2{
+    font-size: 3.2vw;
+    text-align: left;
+    width: 45vw;
+    
+}
+.text3{
+    font-size: 2.5vw;
+    text-align: left;
+    width: 45vw;
+}
+.text3 span{
+    color:crimson;
+    font-size: 3vw;
+}
+.photo{
+     height:auto; 
+    margin-right: 3vw;
+    border: 1.5vw solid crimson;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: white;
+
+}
+.title{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 2vh;
+    font-size: 3.5vw;
+   
+}
+.about{
+    background-color: white;
+    height: 60vh;
+}
+.skills{
+     color: white;
+     height: 60vh;
+}
+.work{
+    background-color: white;
+     height: 60vh;
+}
+.education{
+     height: 60vh;
+  color: white;
+}
+.project{
+    background-color: white ;
+     height: 60vh;
+}
+.contact{
+     height: 60vh;
+    color: white;
+}
+.multi{
+    background: linear-gradient(-45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.met{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doi{
+    margin-left: 3vw;
+    
+}
+.koi
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.8vw;
+    width: 70vw;
+    padding-top: 2.7vh;
+}
+.text5{
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+.text6{
+    font-weight: 600;
+    padding-right: 3vw;
+}
+.text7{
+    font-weight: 600;
+    padding-right: 3vw;
+}
+.text8{
+    font-weight: 600;
+    padding-right: 3vw;
+}
+.text9{
+    font-weight: 600;
+    padding-right: 3vw;
+}
+.high{
+    color:rgb(49, 52, 209);
+    font-weight: bolder
+}
+.skills-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 60%;
+}
+.skills-content .right .js::before{
+    width: 30%;
+}
+.skills-content .right .php::before{
+    width: 80%;
+}
+.skills-content .right .mysql::before{
+    width: 70%;
+}
+.pet{
+    padding-top:3vh;
+    font-family: 'Poppins', sans-serif;
+font-size: 1.5vw;
+padding-left: 3vw;
+padding-right: 3vw;
+color: black;
+}
+.get{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.box1{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-left: 3vw;
+    
+}
+
+.box2{
+    font-size: 2vw;
+    width: 57vw;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 3vw;
+    font-weight: 200;
+} 
+.box2 ul li{
+    list-style: none;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Hahmlet', serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.35vw;
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    }
+    .email{
+        padding-top:12vh;
+        font-family: 'Poppins', sans-serif;
+    font-size: 5vw;
+    }
+.text_center{
+    text-align: center;
+
+}
