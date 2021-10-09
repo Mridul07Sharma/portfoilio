@@ -1,7 +1,45 @@
 @media screen and (max-width:1000px){
     img{
         width: 100%;
-  max-width: 400px;
-  height: auto;
+      max-width: 400px;
+      height: auto;
     }
+    nav .info{
+        padding-top: 3vh;
+    }
+    .box1{
+        padding-right: 3vw;
+    }
+    .about{
+        
+        height: auto;
+        padding-bottom: 3vh;
+    }
+    .skills{
+        
+         height: auto;
+         padding-bottom: 3vh;
+    }
+    .work{
+        
+         height: auto;
+         padding-bottom: 3vh;
+    }
+    .education{
+         height: auto;
+         padding-bottom: 3vh;
+    }
+    .project{
+        
+         height: auto;
+         padding-bottom: 3vh;
+    }
+    .contact{
+         height: auto;
+    padding-bottom: 4vh;
+    }
+    .email{
+        padding-top: 4vh;
+    }
+    
 }
